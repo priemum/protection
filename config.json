@@ -1,0 +1,53 @@
+{
+  "530859416019533834": {
+    "members": "5",
+    "channels": "3",
+    "roles": "3",
+    "time": "60",
+    "toggle": "on",
+    "bots": "off",
+    "whitelist": [
+      "625383523905175622",
+      "615277259879743491",
+      "497820751009808398"
+    ]
+  },
+  "664097763826466829": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "498089594596884490": {
+    "members": "5",
+    "channels": "3",
+    "roles": "5",
+    "time": "20",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": [
+      "325649172621426689"
+    ]
+  },
+  "463293105743855616": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "688507486956683354": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  }
+}
