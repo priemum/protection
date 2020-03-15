@@ -1,0 +1,11 @@
+{
+  "name": "Guardian",
+  "avatar": "https://cdn.discordapp.com/avatars/497820751009808398/73b4e986b8b49e65d1ca094f41d89496.png?size=2048",
+  "owners": [
+    "298732816995319809"
+  ],
+  "prefix": "!",
+  "defualttime": "60",
+  "defualtlimit": "5",
+  "defualttoggle": "on"
+}
