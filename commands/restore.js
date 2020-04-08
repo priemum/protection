@@ -3,11 +3,12 @@ module.exports = {
     alias: ["back", "res"],
     run: function(client, message) {
         if (
-            !client.owners.includes(message.author.id) ||
-            !message.guild.ownerID == message.author.id
+            !client.owners.includes(message.author.id) )
+        if(
+            message.guild.ownerID != message.author.id
           )
           
-            return message.channel.send(":x: **Only owner can use that!**");
+            return message.channel.send(":x: **Only owner can use that!**");  
           if (!client.oldperms[message.guild.id] || client.oldperms[message.guild.id].length == 0)
             return message.channel.send(":x: **No roles to restore.**");
           message.channel.send(":clock1: **Restoring Roles**").then(msg => {

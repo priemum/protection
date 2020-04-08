@@ -5,10 +5,12 @@ module.exports = {
       let args = message.content.split(" ").slice(1).join(" ");
       let user = message.mentions.users.first() || await client.fetchUser(message.content.split(" ")[2]);
       if (
-        !client.owners.includes(message.author.id) ||
-        !message.guild.ownerID == message.author.id
-      )
-        return message.channel.send(":x: **Only owner can use that!**");
+            !client.owners.includes(message.author.id) )
+        if(
+            message.guild.ownerID != message.author.id
+          )
+          
+            return message.channel.send(":x: **Only owner can use that!**");  
       if (!client.con[message.guild.id].whitelist)
         client.con[message.guild.id].whitelist = [];
       if (!args && !user) {

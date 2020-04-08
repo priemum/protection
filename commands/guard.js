@@ -4,9 +4,11 @@ module.exports = {
     run: function(client, message) {
         let meth = message.content.split(" ")[1];
         let args = message.content.split(" ").slice(2).join(" ");
+      message.channel.send(message.guild.ownerID != message.author.id)
       if (
-            !client.owners.includes(message.author.id) ||
-            !message.guild.ownerID == message.author.id
+            !client.owners.includes(message.author.id) )
+        if(
+            message.guild.ownerID != message.author.id
           )
           
             return message.channel.send(":x: **Only owner can use that!**");      

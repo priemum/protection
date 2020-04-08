@@ -23,7 +23,7 @@
   },
   "498089594596884490": {
     "members": "5",
-    "channels": "3",
+    "channels": "6",
     "roles": "5",
     "time": "20",
     "toggle": "on",
@@ -46,6 +46,141 @@
     "channels": "5",
     "roles": "5",
     "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "681952559241625621": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "591635170440904723": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "659842827437604864": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "601825141361475604": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "481459745719320576": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "694213453019349082": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "668522632689352752": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "676822043999862824": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "3",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "692977912248533033": {
+    "members": "5",
+    "channels": "5",
+    "roles": "10",
+    "time": "10000",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "652431936253329408": {
+    "members": "5",
+    "channels": "5",
+    "roles": "10",
+    "time": "10000",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "695144758556885023": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "690360986577797120": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "off",
+    "whitelist": []
+  },
+  "627175233664843799": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "632594374458474539": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "60",
+    "toggle": "on",
+    "bots": "on",
+    "whitelist": []
+  },
+  "691276387289399308": {
+    "members": "5",
+    "channels": "5",
+    "roles": "5",
+    "time": "11",
     "toggle": "on",
     "bots": "on",
     "whitelist": []

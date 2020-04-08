@@ -8,10 +8,12 @@ module.exports = {
         .join(" ")
         .toLowerCase();
         if (
-          !client.owners.includes(message.author.id) ||
-          !message.guild.ownerID == message.author.id
-        )
-          return message.channel.send(":x: **Only owner can use that!**");
+            !client.owners.includes(message.author.id) )
+        if(
+            message.guild.ownerID != message.author.id
+          )
+          
+            return message.channel.send(":x: **Only owner can use that!**");  
         if (!client.con[message.guild.id].bots) client.con[message.guild.id].bots = "on";
         if (!args || !["on", "off"].includes(args))
           return message.channel.send(
