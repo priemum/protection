@@ -14,7 +14,7 @@ module.exports.run = () => {
   // client.eval = eval;
   client.config = require("./bot.json");
   client.oldperms = {};
-  client.commands = new Discord.Collection();
+  client.commands = new Discord.Collection(); 
   client.prefix = client.config.prefix;
   client.alises = new Discord.Collection();
   client.owners = client.config.owners;
