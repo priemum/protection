@@ -4,7 +4,7 @@
 const Discord = require("discord.js");
 const env = require("dotenv").load;
 
-module.exports.run = () => {
+module.exports.run = () => { 
   const client = new Discord.Client()
   client.login(process.env.TOKEN);
   client.fs = require("fs");
